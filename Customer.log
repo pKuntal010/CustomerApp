@@ -1,0 +1,149 @@
+2024-01-04T00:11:29.818+05:30  INFO 10844 --- [main] c.c.register.CustomerAppApplication      : Starting CustomerAppApplication using Java 17.0.9 with PID 10844 (D:\spring workspace\CustomerApp\target\classes started by DELL in D:\spring workspace\CustomerApp)
+2024-01-04T00:11:29.824+05:30  INFO 10844 --- [main] c.c.register.CustomerAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-04T00:11:32.412+05:30  INFO 10844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T00:11:32.609+05:30  INFO 10844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2024-01-04T00:11:37.100+05:30  INFO 10844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-04T00:11:37.128+05:30  INFO 10844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T00:11:37.129+05:30  INFO 10844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T00:11:37.301+05:30  INFO 10844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T00:11:37.302+05:30  INFO 10844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7305 ms
+2024-01-04T00:11:37.688+05:30  INFO 10844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T00:11:38.825+05:30  INFO 10844 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@902fdbe
+2024-01-04T00:11:38.835+05:30  INFO 10844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T00:11:39.116+05:30  INFO 10844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T00:11:39.328+05:30  INFO 10844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T00:11:39.460+05:30  INFO 10844 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T00:11:40.095+05:30  INFO 10844 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T00:11:42.610+05:30  INFO 10844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T00:11:42.825+05:30  INFO 10844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:11:43.531+05:30  WARN 10844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T00:11:44.246+05:30  INFO 10844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-04T00:11:44.264+05:30  INFO 10844 --- [main] c.c.register.CustomerAppApplication      : Started CustomerAppApplication in 15.724 seconds (process running for 16.769)
+2024-01-04T00:13:28.755+05:30  INFO 10844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T00:13:28.792+05:30  INFO 10844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T00:13:28.928+05:30  INFO 10844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 134 ms
+2024-01-04T00:13:29.233+05:30  INFO 10844 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : in info
+2024-01-04T00:13:29.234+05:30  WARN 10844 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : in warn
+2024-01-04T00:13:29.260+05:30 ERROR 10844 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : in error
+2024-01-04T00:20:09.357+05:30  INFO 10844 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:20:09.604+05:30  INFO 10844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-04T00:20:09.975+05:30  INFO 10844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-04T00:20:29.317+05:30  INFO 4048 --- [main] c.c.register.CustomerAppApplication      : Starting CustomerAppApplication using Java 17.0.9 with PID 4048 (D:\spring workspace\CustomerApp\target\classes started by DELL in D:\spring workspace\CustomerApp)
+2024-01-04T00:20:29.351+05:30  INFO 4048 --- [main] c.c.register.CustomerAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-04T00:20:31.397+05:30  INFO 4048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T00:20:31.518+05:30  INFO 4048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2024-01-04T00:20:32.926+05:30  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-04T00:20:32.962+05:30  INFO 4048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T00:20:32.963+05:30  INFO 4048 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T00:20:33.113+05:30  INFO 4048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T00:20:33.114+05:30  INFO 4048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3644 ms
+2024-01-04T00:20:33.401+05:30  INFO 4048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T00:20:34.410+05:30  INFO 4048 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f79f192
+2024-01-04T00:20:34.414+05:30  INFO 4048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T00:20:34.555+05:30  INFO 4048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T00:20:34.741+05:30  INFO 4048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T00:20:34.825+05:30  INFO 4048 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T00:20:35.402+05:30  INFO 4048 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T00:20:37.255+05:30  INFO 4048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T00:20:37.417+05:30  INFO 4048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:20:37.980+05:30  WARN 4048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T00:20:38.594+05:30  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-04T00:20:38.609+05:30  INFO 4048 --- [main] c.c.register.CustomerAppApplication      : Started CustomerAppApplication in 10.661 seconds (process running for 12.399)
+2024-01-04T00:20:48.505+05:30  INFO 4048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T00:20:48.508+05:30  INFO 4048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T00:20:48.510+05:30  INFO 4048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-01-04T00:20:48.597+05:30  INFO 4048 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application started...
+2024-01-04T00:20:48.695+05:30  INFO 4048 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application ended
+2024-01-04T00:22:24.402+05:30  INFO 4048 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:22:24.524+05:30  INFO 4048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-04T00:22:24.694+05:30  INFO 4048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-04T00:22:35.995+05:30  INFO 9300 --- [main] c.c.register.CustomerAppApplication      : Starting CustomerAppApplication using Java 17.0.9 with PID 9300 (D:\spring workspace\CustomerApp\target\classes started by DELL in D:\spring workspace\CustomerApp)
+2024-01-04T00:22:36.000+05:30  INFO 9300 --- [main] c.c.register.CustomerAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-04T00:22:38.345+05:30  INFO 9300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T00:22:38.519+05:30  INFO 9300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interface.
+2024-01-04T00:22:39.789+05:30  INFO 9300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-04T00:22:39.816+05:30  INFO 9300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T00:22:39.817+05:30  INFO 9300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T00:22:39.938+05:30  INFO 9300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T00:22:39.939+05:30  INFO 9300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3742 ms
+2024-01-04T00:22:40.201+05:30  INFO 9300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T00:22:40.886+05:30  INFO 9300 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31723307
+2024-01-04T00:22:40.892+05:30  INFO 9300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T00:22:41.126+05:30  INFO 9300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T00:22:42.245+05:30  INFO 9300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T00:22:42.438+05:30  INFO 9300 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T00:22:43.185+05:30  INFO 9300 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T00:22:44.692+05:30  INFO 9300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T00:22:44.802+05:30  INFO 9300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:22:45.280+05:30  WARN 9300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T00:22:45.863+05:30  INFO 9300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-04T00:22:45.878+05:30  INFO 9300 --- [main] c.c.register.CustomerAppApplication      : Started CustomerAppApplication in 10.951 seconds (process running for 12.235)
+2024-01-04T00:22:52.102+05:30  INFO 9300 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T00:22:52.103+05:30  INFO 9300 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T00:22:52.109+05:30  INFO 9300 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-01-04T00:22:52.274+05:30  INFO 9300 --- [http-nio-8080-exec-2] c.c.r.controller.CustomerController      : application started...
+2024-01-04T00:22:52.275+05:30 ERROR 9300 --- [http-nio-8080-exec-2] c.c.r.controller.CustomerController      : Exception: / by zero
+2024-01-04T00:22:52.278+05:30  INFO 9300 --- [http-nio-8080-exec-2] c.c.r.controller.CustomerController      : application ended
+2024-01-04T00:33:07.879+05:30  INFO 9300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:33:08.084+05:30  INFO 9300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-04T00:33:08.296+05:30  INFO 9300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-04T00:33:23.751+05:30  INFO 9768 --- [main] c.c.register.CustomerAppApplication      : Starting CustomerAppApplication using Java 17.0.9 with PID 9768 (D:\spring workspace\CustomerApp\target\classes started by DELL in D:\spring workspace\CustomerApp)
+2024-01-04T00:33:23.754+05:30  INFO 9768 --- [main] c.c.register.CustomerAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-04T00:33:26.499+05:30  INFO 9768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T00:33:26.622+05:30  INFO 9768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-01-04T00:33:27.819+05:30  INFO 9768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-04T00:33:27.843+05:30  INFO 9768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T00:33:27.844+05:30  INFO 9768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T00:33:27.954+05:30  INFO 9768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T00:33:27.955+05:30  INFO 9768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4071 ms
+2024-01-04T00:33:28.451+05:30  INFO 9768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T00:33:29.114+05:30  INFO 9768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e1eb85f
+2024-01-04T00:33:29.117+05:30  INFO 9768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T00:33:29.197+05:30  INFO 9768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T00:33:29.398+05:30  INFO 9768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T00:33:29.501+05:30  INFO 9768 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T00:33:30.100+05:30  INFO 9768 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T00:33:31.550+05:30  INFO 9768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T00:33:31.637+05:30  INFO 9768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:33:32.121+05:30  WARN 9768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T00:33:32.734+05:30  INFO 9768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-04T00:33:32.745+05:30  INFO 9768 --- [main] c.c.register.CustomerAppApplication      : Started CustomerAppApplication in 9.889 seconds (process running for 11.182)
+2024-01-04T00:35:31.885+05:30  INFO 9768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T00:35:31.886+05:30  INFO 9768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T00:35:31.889+05:30  INFO 9768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-04T00:35:31.962+05:30  INFO 9768 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application started...
+2024-01-04T00:35:31.962+05:30 ERROR 9768 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : Exception: / by zero
+2024-01-04T00:35:31.964+05:30  INFO 9768 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application ended
+2024-01-04T00:36:01.741+05:30  INFO 9768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:36:01.752+05:30  INFO 9768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-04T00:36:01.802+05:30  INFO 9768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-04T00:36:14.166+05:30  INFO 10744 --- [main] c.c.register.CustomerAppApplication      : Starting CustomerAppApplication using Java 17.0.9 with PID 10744 (D:\spring workspace\CustomerApp\target\classes started by DELL in D:\spring workspace\CustomerApp)
+2024-01-04T00:36:14.172+05:30  INFO 10744 --- [main] c.c.register.CustomerAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-04T00:36:15.924+05:30  INFO 10744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T00:36:16.176+05:30  INFO 10744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 1 JPA repository interface.
+2024-01-04T00:36:17.478+05:30  INFO 10744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-04T00:36:17.499+05:30  INFO 10744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T00:36:17.499+05:30  INFO 10744 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T00:36:17.640+05:30  INFO 10744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T00:36:17.641+05:30  INFO 10744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3348 ms
+2024-01-04T00:36:17.930+05:30  INFO 10744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T00:36:18.605+05:30  INFO 10744 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31723307
+2024-01-04T00:36:18.608+05:30  INFO 10744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T00:36:18.749+05:30  INFO 10744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T00:36:18.932+05:30  INFO 10744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T00:36:19.033+05:30  INFO 10744 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T00:36:19.554+05:30  INFO 10744 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T00:36:21.446+05:30  INFO 10744 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T00:36:21.554+05:30  INFO 10744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:36:22.073+05:30  WARN 10744 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T00:36:22.693+05:30  INFO 10744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-04T00:36:22.707+05:30  INFO 10744 --- [main] c.c.register.CustomerAppApplication      : Started CustomerAppApplication in 9.499 seconds (process running for 10.412)
+2024-01-04T00:36:57.277+05:30  INFO 10744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T00:36:57.278+05:30  INFO 10744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T00:36:57.282+05:30  INFO 10744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-01-04T00:36:57.503+05:30  INFO 10744 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application started...
+2024-01-04T00:36:57.504+05:30  INFO 10744 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : inside try block..
+2024-01-04T00:36:57.504+05:30  INFO 10744 --- [http-nio-8080-exec-1] c.c.r.controller.CustomerController      : application ended
+2024-01-04T00:37:20.835+05:30  INFO 10744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T00:37:20.846+05:30  INFO 10744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-04T00:37:20.901+05:30  INFO 10744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
